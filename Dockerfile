@@ -1,4 +1,4 @@
-FROM image-registry.openshift-image-registry.svc:5000/openshift/golang:latest as builder
+FROM wcp-ibm-streams-docker-local.artifactory.swg-devops.com/openshift/golang:latest as builder
 
 WORKDIR /build
 ADD . /build/
